@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
   *main - Entry point of the program
   *Description: the variable n is positive or negative
@@ -13,5 +13,6 @@ int main(void)
 	_putchar('c');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
