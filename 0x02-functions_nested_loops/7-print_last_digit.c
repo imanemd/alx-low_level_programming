@@ -1,22 +1,13 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
-  *_abs - Entry point of the program
+  *print_last_digit - Entry point of the program
   *Description: the variable n is positive or negative
   *@n: description
   *Return: 0 on successful program execution.
   */
-int _abs(int n)
+int print_last_digit(int n)
 {
-	int absn = abs(n);
+	int ld = n % 10;
 
-	return (absn);
-
+	return (ld);
 }
-
-
-
-
-
-
