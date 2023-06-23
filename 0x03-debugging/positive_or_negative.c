@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+  *positive_or_negative - Entry point of the program
+  *Description: the variable n is positive or negative
+  *@i: character
+  */
 void positive_or_negative(int i)
 {
 	if (i > 0)
