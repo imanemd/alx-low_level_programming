@@ -1,30 +1,20 @@
 #include "main.h"
 /**
-   *  _strcat - function that concatenates two strings
-    *  @dest: entered value
-     *  @src: entered value
+   * _isupper - If is uppercase return 1, if not return 0
+    *
+     * @c: this is the entry
       *
-       *  Return: void
-       */
-char *_strcat(char *dest, char *src)
+       * Return: 0
+        *
+	*/
+int _isupper(int c)
 {
-	int a;
-	int b;
-
-	a = 0;
-
-	while (dest[a] != '\0')
+	if (c >= 'A' && c <= 'Z')
 	{
-		a++;
+		return (1);
 	}
-	b = 0;
-
-	while (src[b] != '\0')
+	else
 	{
-		dest[a] = src[b];
-		a++;
-		b++;
+		return (0);
 	}
-	dest[a] = '\0';
-	return (dest);
 }
